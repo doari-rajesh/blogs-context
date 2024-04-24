@@ -8,7 +8,7 @@ const Pagination = () => {
       className=" w-full flex justify-around items-center fixed bottom-0 bg-white py-2 
      border-t-2 border-t-gray-200"
     >
-      <div className=" flex justify-between  w-11/12 max-w-[650px] ">
+      <div className=" flex justify-between w-11/12 max-w-[670px] ">
         <div className="flex justify-center items-center gap-x-4 ">
           {page > 1 ? (
             <button
