@@ -34,7 +34,7 @@ const Pagination = () => {
           )}
         </div>
 
-        <div>{`Pages ${page} of ${totalPages}`}</div>
+        <div className="flex items-center font-semibold text-sm">{`Page ${page} of ${totalPages}`}</div>
       </div>
     </div>
   );
